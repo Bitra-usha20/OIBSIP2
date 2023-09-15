@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="portfoli.css">
+    <script src="https://kit.fontawesome.com/c9774f5bd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUYGBgZGBoaHBoaGhoaGRgYGBgaHBoaGBocIS4lHCErIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCs0NDU0NDQ0NDQ0NjQ0NDQ0NDY0NDQ0NDQ9NDQ0MTQ0MTQ0MTQxMTQxNDQ0NDQ0NjQ0Mf/AABEIAL8BBwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgADBAUGBwj/xAA7EAABAwMCAwYDBgUEAwEAAAABAAIREiExA0EEUWEFBiJxgaEykcETQlJiseEHcqLR8COCkrIU0vFU/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAIREBAQEBAAICAwEBAQAAAAAAAAECEQMhEjEiQVFhEwT/2gAMAwEAAhEDEQA/APYXOBEDKVnhyoW03UAq6QgBaSZ2TPNQgIVx4fRQtpvlAWGmxS0mZ2mfRECq+NlKvu+iAvM4UaQ0QUCKb5UoqvhAGtIMnCL/ABY2UqnwqHw9Z+iBg4AQcpGtIMlGmfEoH1WwgjxVhNUIjeI9Us02yiGb+sIFYKblR7ajITwTkQmY2EClwIjdKzw5TDSvMovZKCtzSTIwnc4EQMo3FgJSFtN0EYacoFpJnbKIFXSFK48PogLzNgow02KBbTfKgFV8bIAGmZ2mfRM8zhCr7vooRT1lAWkNEFK1pBk4RDar4Uqqsgj/ABY2TBwAg5Snw9Z+ilE3QBjaTJReKsKB9VsKTTbKBmvAEHZRL9nN5zdRAGEk3x1Rfb4fZFzqrBBnhzugIAiTlKwkm+OqhZJq2ymc6qwQK+3w46JoETvHrKjXRY+aWm9W2UBZf4vdB5INsdEXGrCLXU2KCOAi2UGX+L3QDIMnCLvFjbn1QBxM2wrCzlZFjYELX9qds6WgPG7xbNbdx9Nh1MKZLfpFsn2zwznfzVHF8dp6Yl72t5VEAnyGT6Lhe0u9WtqSGH7Nv5bu9XbekLQvJJkkknJJknzJWmfD/WWvLP07/iO+HDtxW/8AlbA/qIWDqd+B93QJ83gfo0rjIUWs8WWd8unXHvy7/wDOP+Z/9FZp9+m/e0HD+Vwd+oC40hKQp/55/iP+mv69E4bvfw7viL2fzNt82yt1wvFs1BLHtcPykGPOMLyMJmPc0hzSWkYIJBHkQqa8M/S+fNf29gLeVkKbdea4DszvZrMgan+o3rZw8nb+vzXZdmdraWu2dN0kZabOHmPrhY6xrLWblZLCSb46qPt8OOit1GyEjTFj5qq6ECJ3j1lBl/i90Kb1bZRcasIA8kG2OiZwEWyo11NilDIMnCAsv8Xug4mbYRd4sbIh0CN0EcABbPRRl8+6VrablFwquEAc47TCicagFuSiAObTcIAVZ25INmbzHXCL/wAvsgBdHh2wmLYuPdQRF4n3lKyZ8WOqBg2q58rJavu7YUf+XHRNaNpj1lACKce6LW1XKDPze6Dpm2OiAhxNtlY1oCIC5LvP24TOjpOjZ7h7tB/U+nNTM9qLeH7f7zUzp6BBdgvyG9G8z1x57ca9xcS5xLnEySSSSepOU1KUrpxJn6Yatt9kcEITOaoArs+AAgQnhAqOnCOSQmKEKyqAIohAqEoXKaPEOY4OY4tcMEGCEhSFXkUuq9A7ud6BqkaetDX4a7DXnl+V3TB25LpnMBXjC7nun3jqjQ1neLDHn7/5XH8XI7+eefy+Hn5ZdHi8vfVdXUZp2x6KEU491Y4W6qtn5vdc7oFrarlAPmxQdM2x0TuiLRPTKBXeHG/PoiGTdBn5vSUHTNpjphBGuqsUSabD3RdEeHPRRn5vdBBpg3vdRK4HaYUQNVNkAac3lFzQ0SEGeLOyCUT4vVQuqsgXEGNsJnNpuEABpt6qU/e9UWCq5S1GY2mPRASauisY2BCQiIjdHX1Qxpc4wGgk+QQaXvN2r9kyhph7xn8LcE+ZwPXkuIhZHH8S7Ue57suOOQ2HoFikLbM4y1eoQqyFYoGK/VedVQgrSxCgqfkr8aqIQLVfSlIU9LlTSpSrCUjgp6rwpSOTkKt4VopSFFKUpV2fUKFUGRYjcZB6IkpCVaK2vTu6nbX2+nDj/qMgO/MNnDz36jqFvdRkryDsftJ3D6zNRuAYcPxMPxD6jqAvXtLUDgHAyHAEEYIIkELh82Pjrs+q7fD5Plnl+4UOpsoGU3TNZNzlI1xJg4WTcT4sWj6oh8WQf4cbohoIk5QAMpuoRVcINdVYouNNggI1ItGFEWsBvzUQI1pBk4Rf4sKV1WwpNPWUBDhEbpWCDJwjRPi9VKqrYQB4m4TVCI3iPVCqm2d1KPvesIDpNIytD3w4uljdMZeZPkMD1MfJdE0yuC7ycRXxD+TYYP8Abn+ouVsz2i/TVNTwlCZaVWBSoGoVKOeh2CQkc5K7UVTnq0yprR3OSlItd2p2wzQ+K7jhoz5nkFbnFO2tk5Bcbq97NUu8LGNHIguPqZH6K/S7yPOWs354+aiaz/U3NdQ5UvKweD7TD5BFJF85Cy5WubL9VjuWfcAoFNCBWrKqnFLKtIVZCmKWFXo/cLj69A6ZN9J0D+V0lvvUPQLzqF0ncbi6OJDZtqNc31AqB/pI9Vl58/LNa+HXNx6NqsJNkznAiBlM90CVXRTdcD0UZ4coOaSZGEfi6R9VK4sgLnAiBlRhjKFFN8qRVfCBXNJuMIo/aRaMWUQM5oAkZSsv8SDGkGSi7xY2QAuMxsmeIFsqBwAjfCVrablAzBOUtRmNpj0Uc2q4TVCKd8ILV5jralbnO/E4u+ZJ+q9J4l0MceTSfYrzEK+FdCUCUUCtFVbig54AJJAAEknAA3KsLLFxs0Z/sFxfbHbznyxraGhwIG5jBdOTiyprcz6n2tjx9936dR/5TaanEMB+GswSOZG3llEGQCJg4sRPobrkOz9d73l7nsDh9/UdNP8AIw5Odvkup4PVY6aXl5+84zfytA8goxu/Ll+lvJ483Nsnv/Po+o8gWzsud1uxq63uJcbFx5TEA8sgei2naPE0mJ6eU/57LQs7QdWG1WrEj13U71dX0pjMk9tbx3ZtB8Jm494/usFry1bDiuKIe3pn2P0VGuwUOO9bgPIKqyzhOLhzZxFLvLH6La9kdqkPGm8yDYHk4fQ/QLmFk63EAvrY0sFiATUQQBeYG4nG8Kca+Ouq7z8px6CUpWPwXEjUY143HyO4Vjiu+e3navFkpaVWXIVK8it0thZXZOrRr6TuWoyfKoA+0rAqUa+L8r/JRc+ia5evcoVDXEmDhXKsuBEDK8t6wPt8KYNBEnKVnhzug5pJkYQRhJMHCLzGEXOqsFGGmxQFrQRfKirOmTfmigIfVZR3hxui6ItE9MoM/N7/ALoDTN/VAGqxQMzaY9oTPiPDnp+yAE02HmjT971UZG+ev7oXneJ9IQHiGy1w5tI9ivLWPXq68n4ltD3s/C9zf+LiPotfHO9Z+S84epO0SYCxw5ZnCMsT6BW3+M6jH5XjWd5tSNEtBzZcg7sp4gkTMH5rsu1tCoskeGsT5QVk1Lmzi67eune855ONB2Z2fowAdJ7nRdz2gNB6Am63DnBjTAAABtgWTvK1PeHXo0Xc3Q35/sFvnPxyw35PnZJOOV7R44uJPM/UrF4B0vk9T6wY91jPdKfhZqWa1TiXy8k7n/57QsjjOBezTY90U6lT2wQTYgGRtkf4FjgA6h5Ak+jcfon1vgb1ufZx/wCygYaBTsFkQzwk9f8APqnB0ndjXljmT8JkDof3lbpy43sXi/s9VpOD4T67rtMrv8Gvlmf48/z55rv9VkoBMQoujrnBFrJIHMx87KQs7sXQq19FvPUZPkHAn2BS3k6nM7ePY1WWRdWqhszeY64XkPYFvizt9VC+LKP/AC+sfsmEReJ65QAspuEGiq5QZM+LHXCj/wAvt+yCHUItyUTtjeFECBtNyi7xY2Qa4usUXmnG6Ah0W9EGtpuUQ0EVb5StdVYoC5tVx5I17b4Qc6mwRpEVb5QOxsCF5x3t0KOJdyeA8eog/wBTT816LpvJXNd9+Aq0hqAXYYP8roHsY+ZWnivNMvLLc+nDt1NlvmAMaJ5efoAtBpNhzTsCD7reaL58Rzt0/dX8/wCuI/8AN2y2sfi2F0EMcDt+4m3qFr3EgwVu9V9rET12Wv4nRc4TMnmAY+cLPx6+N9tfJi6nr7YYcue7563h02jcuPygfUreF8WK5/viyWsd1cPnB+i38k/FzeK91xy2i8NcC5ocGuBLThwBu0xzwr2Oqe57WhgJJDRMNDjZom5AFlitaSYXQ8FwIZp1u8xO5OP091ya9OqZ60zNM1uA2q/Qj6q3iGeBpH4PYhgH/Uq5rQHum4ocfWJn5pNfWFDQDhoHup6cYbIj1/TP6rM4DX0W6Wo3UY5z3thjgbMdzdfyONjzviaLvYk+kfso/TsPP6JZ1WKqDey6nu/2hW2hx8bcdW/3C5rT1oIPL36fJHS1ix4c0wQbf2Wnj38ddU8mJrPHeuCUBV8BrjUY143yORFiFlNYvQ+U5151xe8IGLpO43B1cRXFtNpP+53hA+Rd8loYXofcngPs9Csjxapq/wBos36n/csfNvma18GO6n+Oie2RCQvmympqEGyhaAJGVwvRBvhzvy6IFk3RZ4s7IOcQYGEDOdVYINNNii5tNwgwVXKAHTJvzUQOoRbkigdzgRAylZb4lKKb5UirpCAEGZ2TPIItlCuPD6KU03ygLDGcpYMztPsjTVfGylX3fSUBcZiEdbSDmlrhIcCCOYIghLFN8qxhm6DybtXhHaGq7Td902P4mn4XfL3kKzR15C7bvZ2L9vp1NH+oyS38w3b9R18yvO9AkVDofQhdF5vHf3HNi3x+Tn6rM0dYk1Hnb+6y28bzWNo6QpEckNTTXN6djMcxj8gTz3+a5/vL2a46biwhwbJMi0Rz5752Wc3UIssDtvXJbRNonIFwQRY5uFb5a5zqtznveOH4N7qxSwF207emFsuI09Y0h83n59fRTT4poAe1rQ5j6sZ811D9AajK3Glrm1AD4i03AMfoCqantbN9ccHxVTYm1QBA3p2kbSsUuWx7R4FzfG54Li4+HLg0bvItK14YVMZ0/D5/zCve3wyN7erbfpCxDZONUxGxT6FZKP0QIQQdd3QcSx45Pn5tH9l0BWm7qcI9jH1tLai0iREiFvRpkkBoJJMAC5JOAF3eO/jOuLyz8qyuxezTr6zWfd+Jx5NGfU4HmvVGtDRAFgIAHIYC1HdzsgcPpwYrdBcf0aOgn5krbufC5/Lv5X19Ojw4+Off3QaQM5SNBBk4RoqvhSqqyybI+/w+yYOAEHKX4es/RSiboAwEG+EX3+FSqq2FJptlAzXCL5US/Zzec3UQBriTBwi+2LIucCIGUGeHKBg0ETukYajBwoWkmdspnOqsECvNNgnpETvE+qDDTYpaTM7TPogLDOboPcQYGEXmrCLSGiCgtXId6e7heTr6I8eXMH3vzNH4uY3889Q1pBk4VrHA4Uy2XsV1mWcrynhH2pO2PJXuXV9v92hqE6ujDdTJGGv/APV3Xffmucdw7mmlzS1wyDkJZPuL5t+q1eu261b+Dqc5773s3nGJK6LidOBiTyWk450A1SPSQkTpxHHso1HtIiTMed/rHot32Tx736Q02tktsTvE28ht6LT9taYDmuDgZtYERGM+Z+SXs7jHaTpYYqEf58lNnWcvHVanZzGMJ1ILne3KP1Wg19Jg+EeqfU19R93VO9DCqeduqnOeI1rrC4jhxNliu0itlqG6rpS5lVmqw9PQJKzNPgw1wdmCDBwYRDVsOzeD1dZ32Wkx2o8iwb+ribNGLmApmZC21uezO32axDILHmwabhx5NIyei9P7sdgfZxq6g8ZHhb+AHn+Y+y1fcb+H2nwdOtrEanERY5ZpTkaYOXbVG/ICTPcueBlNeS2cM+KS9R2Cq9Mzm6FJmrbPomeZws2pXuIMDCdzQBIyg0hogpWtIMnCAs8Wbwg5xBgYRf4sbIhwAg5QR7QBIyowTlK1tJkovFWECueQYBUVjXgCOSiBS2m6gFXSEGkzfHVF9vh9kErjw+ihbTfKIAi+feUrJnxY6oCBVfGylX3fRB/5cdE0COsesoART1UDarqMv8Xug4mbY6ICHzZQ+HrP0TECLZ90rL/F6SgsY6RKo4zgmagh7Z5HBHkUziZtj2VjjAsg47tbu1qAE6YGqORhrx62DvbyXBdqt1WEto1WO5GR7EYXtwfzsk19Bj20va1zTs4Aj5FJ6L7j5m7R4l7xDjN92tn5gSsUYnl+i9+7R/h/wOtJOiWE76b3N/pmn2Wj1f4R8NenX1xOzvs3AfJgVuxXleUafEPsK3R5lWQSQvTtP+EumCD/AOU8/wCxv91tNP8Ahvw8gv1dV0bCgD/qT7qZqKXNeM6jbrI4DgtTWdRpab9R3JjS6POPhHUr3Dhe4nAsM/YB5/O5zx/xJp9l0OhoMY0NY1rGjDWgNA8gLKLpaZeUdg/wy1Xw7inDSZ+BhDtQ9C74WelXovS+x+xtDhmUaGm1g3Iu5x5ucbuPms4v5XQmRfP1UW2rTMhtR0BVgVXxsgyZ8WOqjs2x0UJGr7vooRT1RIEdY9ZQZf4vdBA2q6gfVZBxM2x0TuAi2emUCnw9Z+igZN1GX+L3QcTNseyAh9VsKTTbKLgI8OeijL590EGnN5yolcTtMKIGc6qwQb4c78kXNpuEAJztyQAsk1bZTF02HulLo8O2ExbFx7oIHU2PnZLTerbKYNm58rJar07YQEmrHui11NigRGPdFrarlAobFzhF3ixtz6oB02OETbG/PogIfFt0rW03KYNm6VrqrFASKrj3RGptvj1QJiw90abVb5QQS3JkI1E4iOqUOmx9lC6LD3QN9ptv7IlxGfZKWR4t8oC+duSAmTcGyjnVWCVzi2wTObTcIADTnfkgWz4tsogTnbkgXR4dsIGLpsPdQOpsfOyhbFx7qBs3PlZAtN6tsok1Y90Kr07YRIjHugLXU2KAZFyi1tVygHTYoI7xY259UQ+LIG2N+fRENm6BWtpuUSKrj3Qa6qxRJiw90BGoBbkooNMG/NRB/9k=" class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front end developer</p>
+            <h1>Hi, I'm <span>BITRA USHA SAI SRILATHA</span><br> from Anakapalli</h1>
+        </div>
+    </div>
+ </div>
+ <!----------------about--------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="../secondphoto.jpg">
+            </div>  
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am pursing my btech computer science and engineering in
+                 Avanthi institute of enginerring technology.I completed my 
+                 intermediate in Dr.Himasekhar junior college.I completed my
+                 schooling in ideal english medium school.I want to become a 
+                 software engineer.</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Designing Web/App interfaces</li>
+                        <li><span>2019-2021</span><br>Team lead</li>
+                        <li><span>2017-2019</span>UI/UX Design</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>completed my schooling at ideal english medium school</li>
+                        <li><span>2021</span><br>intermedaite at D.Himasekhar junior college</li>
+                        <li><span>2025</span><br>pursuing btech at Avanthi college</li>
+                    </ul>
+                 </div>
+            </div>            
+        </div>
+    </div>
+ </div>
+ <!---------------services----------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. sed nulla nibh, 
+                    tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>python</h2>
+                <p>.</p>
+                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestiae veritatis itaque cupiditate incidunt nulla mollitia ex corrupti error dolorum.</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. sed nulla nibh, 
+                    tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--------------------portfolio------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../mywork1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../mywork2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../mywork3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!----------------contact--------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>ushabitra1299@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+    
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+ </div>
+ </div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function openmenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
+
+
+ 
